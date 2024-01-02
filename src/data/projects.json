@@ -3,7 +3,7 @@
     {
       "name": "Recipe Ready",
       "description": "",
-      "image": "",
+      "image_path": "recipe-ready",
       "chips": ["JavaScript", "React", "Express", "Firebase", "OpenAI API", "YouTube API"],
       "live_url": "quienten.dev/recipe-ready",
       "git_url": "https://github.com/Quienten/recipe-ready"
@@ -11,7 +11,7 @@
     {
       "name": "Portfolio Website",
       "description": "",
-      "image": "",
+      "image_path": "",
       "chips": ["React", "Express", "TailwindCSS", "OpenAI API", "YouTube API"],
       "live_url": "quienten.dev",
       "git_url": "https://github.com/Quienten/recipe-ready"
@@ -19,7 +19,7 @@
     {
       "name": "Covid Dashboard",
       "description": "",
-      "image": "",
+      "image_path": "",
       "chips": ["React", "Express", "Firebase", "OpenAI API", "YouTube API"],
       "live_url": "",
       "git_url": "https://github.com/Quienten/recipe-ready"
