@@ -1,0 +1,26 @@
+{
+  "experience": [
+    {
+      "name": "University of Washington",
+      "role": "Math & Computer Science Tutor",
+      "description": "",
+      "start": "April 2023",
+      "end": "Present",
+      "url": "https://www.tacoma.uw.edu/tlc/quantitative-consultant-biographies"
+    },
+    {
+      "name": "University of Washington",
+      "role": "Teaching Assistant",
+      "description": "",
+      "start": "August 2023",
+      "end": "December 2023"
+    },
+    {
+      "name": "University of Washington",
+      "role": "Student Technology Fee Committee Member",
+      "description": "",
+      "start": "August 2023",
+      "end": "December 2023"
+    }
+  ]
+}

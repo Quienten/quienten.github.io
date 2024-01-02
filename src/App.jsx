@@ -1,6 +1,8 @@
 import './App.css'
 import { projects } from './data/projects.json'
+import { experience } from "./data/experience.json"
 import ProjectTile from "./components/ProjectTile.jsx";
+import ExperienceTile from "./components/ExperienceTile.jsx";
 
 function App() {
 
@@ -35,15 +37,19 @@ function App() {
                   </section>
 
                   <section id="projects">
-                    <ul>
+                    <ol>
                         {projects.map((project, i) => {
                             return <ProjectTile key={i} project={project}/>
                         })}
-                    </ul>
+                    </ol>
                   </section>
 
                   <section id="experience">
-
+                      <ol>
+                          {experience.map((experience, i) => {
+                              return <ExperienceTile key={i} experience={experience}/>
+                          })}
+                      </ol>
                   </section>
 
                   <section id="contacts">
