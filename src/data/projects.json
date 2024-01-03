@@ -2,27 +2,36 @@
   "projects": [
     {
       "name": "Recipe Ready",
-      "description": "",
+      "tagline": "Generate recipes from the ingredients in your fridge.",
+      "description": "AI-powered recipe generation web-application that dynamically creates personalized recipes while providing an intuitive user interface for seamless navigation. This project showcases the fusion of diverse technologies to deliver an interactive culinary experience, combining frontend expertise with backend functionality.",
       "image_path": "recipe-ready",
       "chips": ["JavaScript", "React", "Express", "Firebase", "OpenAI API", "YouTube API"],
-      "live_url": "quienten.dev/recipe-ready",
+      "live_url": "https://quienten.dev/recipe-ready",
       "git_url": "https://github.com/Quienten/recipe-ready"
     },
     {
-      "name": "Portfolio Website",
+      "name": "Tetris Group Project",
       "description": "",
+      "image_path": "tetris",
+      "chips": ["Java", "Observer Design Pattern", "Swing", "Git"],
+      "live_url": "",
+      "git_url": ""
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "The site you're currently on",
       "image_path": "",
-      "chips": ["React", "Express", "TailwindCSS", "OpenAI API", "YouTube API"],
-      "live_url": "quienten.dev",
+      "chips": ["React", "TailwindCSS"],
+      "live_url": "https://quienten.dev",
       "git_url": "https://github.com/Quienten/recipe-ready"
     },
     {
       "name": "Covid Dashboard",
       "description": "",
       "image_path": "",
-      "chips": ["React", "Express", "Firebase", "OpenAI API", "YouTube API"],
+      "chips": ["Django", "Plotly"],
       "live_url": "",
-      "git_url": "https://github.com/Quienten/recipe-ready"
+      "git_url": "https://github.com/Quienten/covid-dashboard"
     }
   ]
 }
