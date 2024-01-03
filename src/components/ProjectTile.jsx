@@ -1,8 +1,12 @@
 import {useEffect, useState} from "react";
+import Chip from "./Chip.jsx";
+import HyperLinkIcon from "./HyperLinkIcon.jsx";
 
 function ProjectTile({ project }) {
 
-    const { name, description, image_path, chips, live_url, git_url } = project
+    const { name, description, image_path, live_url, git_url } = project
+
+    const [chips, setChips] = useState(project.chips)
 
     const [image, setImage] = useState("")
     const [loaded, setLoaded] = useState(false)
@@ -36,19 +40,28 @@ function ProjectTile({ project }) {
                            href={live_url} target="_blank" rel="noreferrer noopener">
                             <span
                                 className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block">
-
                             </span>
                             <span>
                                 {name}
+                                <HyperLinkIcon/>
                             </span>
                         </a>
                     </h3>
+                    {project.tagline && <p className="italic mt-2 text-sm leading-normal">
+                        {project.tagline}
+                    </p>}
                     <p className="mt-2 text-sm leading-normal">
                         {description}
                     </p>
+                    <ul className="mt-2 flex flex-wrap">
+                        {chips.map((text, i) => {
+                            return <li className="mr-1.5 mt-2" key={i}>
+                                <Chip text={text}/>
+                            </li>
+                        })}
+                    </ul>
                 </div>
-                {loaded && <img alt="" loading="lazy" width="200"
-                     height="48" decoding="async" data-nimg="1"
+                {loaded && <img alt="" loading="lazy" decoding="async" data-nimg="1"
                      className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
                      src={image}
                 />}

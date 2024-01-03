@@ -1,3 +1,5 @@
+import HyperLinkIcon from "./HyperLinkIcon.jsx";
+
 function ProjectTile({ experience }) {
 
     const { name, role, description, start, end, url } = experience
@@ -25,6 +27,7 @@ function ProjectTile({ experience }) {
                                 <span>{role} ·
                                     <span className="inline-block">{name}</span>
                                 </span>
+                                {url && <HyperLinkIcon/>}
                             </a>
                         </div>
                     </h3>
