@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Quienten/",
+      "image_path": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/quienten-miller/",
+      "image_path": "linkedin"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:quientenmiller4@gmail.com",
+      "image_path": "email"
+    }
+  ]
+}
