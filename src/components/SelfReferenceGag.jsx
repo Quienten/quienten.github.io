@@ -5,9 +5,9 @@ import CursorIcon from "../assets/cursor.svg"
 
 function SelfReferenceGag({ project }) {
 
-    const { name, description, image_path, live_url, git_url } = project
+    const { name, description, live_url, git_url } = project
 
-    const [chips, setChips] = useState(project.chips)
+    const [chips] = useState(project.chips)
 
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
@@ -81,10 +81,10 @@ function SelfReferenceGag({ project }) {
                 </div>
                 <div ref={cursorBox}
                     className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1">
-                    <img src={CursorIcon} className="relative h-3 w-3" style={{
+                    <img src={CursorIcon} className="relative h-3 w-3 hidden md:block" style={{
                         left: x,
                         top: y
-                    }}/>
+                    }} alt={""}/>
                 </div>
             </div>
         </li>
