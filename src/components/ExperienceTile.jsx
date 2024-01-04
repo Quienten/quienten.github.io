@@ -23,7 +23,8 @@ function ProjectTile({ experience }) {
                     <h3 className="font-medium leading-snug text-slate-200">
                         <div>
                             <a
-                                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
+                                className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300
+                                group/link text-base"
                                 href={url} target="_blank" rel="noreferrer noopener"
                                 aria-label={`${role} at ${company} (opens in a new tab)`}
                             >
