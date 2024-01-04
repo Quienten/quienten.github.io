@@ -5,9 +5,7 @@ import { socials } from "./data/socials.json"
 import ProjectTile from "./components/ProjectTile.jsx";
 import ExperienceTile from "./components/ExperienceTile.jsx";
 import SocialButton from "./components/SocialButton.jsx"
-// import GitHubIcon from "./assets/github.svg";
-// import LinkedInIcon from "./assets/linkedin.svg";
-// import EmailIcon from "./assets/email.svg";
+import SideNav from "./components/SideNav.jsx";
 
 function App() {
 
@@ -18,21 +16,14 @@ function App() {
           <div className="lg:flex lg:justify-between lg:gap-4">
               <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-5/12 lg:flex-col lg:justify-between lg:py-24">
                   <div>
-                      <h1 className="text-3xl font-bold">
+                      <h1 className="text-4xl font-bold tracking-wide">
                           Quienten Miller
                       </h1>
                       <h2>
                           Software Engineer
                       </h2>
 
-                      <nav>
-                          <ul>
-                              <li>About</li>
-                              <li>Projects</li>
-                              <li>Experience</li>
-                              <li>Contact</li>
-                          </ul>
-                      </nav>
+                      <SideNav/>
                   </div>
                   <ul className="ml-1 mt-8 flex items-center">
                       {socials.map((social, i) => {
