@@ -21,7 +21,7 @@
       "name": "Portfolio Website",
       "description": "The site you're currently on",
       "image_path": "",
-      "chips": ["React", "TailwindCSS"],
+      "chips": ["React", "TailwindCSS", "Vite"],
       "live_url": "https://quienten.dev",
       "git_url": "https://github.com/Quienten/recipe-ready"
     },
@@ -29,7 +29,7 @@
       "name": "Covid Dashboard",
       "description": "Dashboard that acts as a central hub to those looking for a broad global understanding and a specific local understanding of the coronavirus. Uses a choropleth world map for the user to peruse stats relating to geographical location such as: cases, recoveries, and deaths.",
       "image_path": "",
-      "chips": ["Django", "Plotly"],
+      "chips": ["JavaScript", "Python", "Django", "Plotly"],
       "live_url": "",
       "git_url": "https://github.com/Quienten/covid-dashboard"
     }
