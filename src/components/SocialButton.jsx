@@ -24,7 +24,7 @@ function SocialButton({ social }) {
     
     return (
         <li className="mr-5 text-xs">
-            <a className="block hover:text-slate-200" href={url}>
+            <a className="block hover:text-slate-200" href={url} target="_blank">
                 {loaded && <img className="h-6 w-6" src={image} alt={name}/>}
             </a>
         </li>
