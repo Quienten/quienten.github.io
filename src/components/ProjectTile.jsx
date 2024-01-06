@@ -1,7 +1,9 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import Chip from "./Chip.jsx";
 import HyperLinkIcon from "./HyperLinkIcon.jsx";
 import GitHubIcon from "../assets/github.svg";
+import ProjectImage from "./ProjectImage.jsx";
+import SelfReferenceGag from "./SelfReferenceGag.jsx";
 
 function ProjectTile({ project }) {
 
@@ -9,23 +11,7 @@ function ProjectTile({ project }) {
 
     const [chips] = useState(project.chips)
 
-    const [image, setImage] = useState("")
-    const [loaded, setLoaded] = useState(false)
 
-    useEffect(() => {
-        const fetchImage = async () => {
-            try {
-                const response = await import(`../assets/${image_path}.png`)
-                setImage(response.default)
-            } catch (err) {
-                //setError(err)
-            } finally {
-                setLoaded(true)
-            }
-        }
-
-        fetchImage()
-    }, [image_path])
 
     return (
         <li className="mb-12">
@@ -37,10 +23,7 @@ function ProjectTile({ project }) {
                     lg:group-hover:bg-slate-800/50 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg">
 
                 </div>
-                {loaded && <img alt="" loading="lazy" decoding="async" data-nimg="1"
-                                className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
-                                src={image}
-                />}
+                {name === "Portfolio Website" ? <SelfReferenceGag/> : <ProjectImage image_path={image_path}/>}
                 <div className="z-0 sm:order-2 sm:col-span-6">
                     <h3>
                         <a className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"

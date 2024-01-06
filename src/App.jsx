@@ -46,12 +46,7 @@ function App() {
                   <section id="projects">
                     <ol>
                         {projects.map((project, i) => {
-                            if(project.name === "Portfolio Website") {
-                                return <SelfReferenceGag key={i} project={project}/>
-                            } else {
-                                return <ProjectTile key={i} project={project}/>
-                            }
-
+                            return <ProjectTile key={i} project={project}/>
                         })}
                     </ol>
                   </section>
