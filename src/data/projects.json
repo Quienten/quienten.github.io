@@ -6,7 +6,7 @@
       "description": "AI-powered recipe generation web-application that dynamically creates personalized recipes while providing an intuitive user interface for seamless navigation. This project showcases the fusion of diverse technologies to deliver an interactive culinary experience, combining frontend expertise with backend functionality.",
       "image_path": "recipe-ready",
       "chips": ["JavaScript", "React", "Express", "Firebase", "OpenAI API", "YouTube API"],
-      "live_url": "https://quienten.dev/recipe-ready",
+      "live_url": "https://recipeready.quienten.dev",
       "git_url": "https://github.com/Quienten/recipe-ready"
     },
     {
