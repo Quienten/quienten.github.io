@@ -14,23 +14,22 @@
       "description": "A Tetris Remake utilizing Java and the Observer Design Pattern. Worked on a team of 5 utilizing the Agile approach. ",
       "image_path": "tetris",
       "chips": ["Java", "Observer Design Pattern", "Swing", "Git", "Agile"],
-      "live_url": "",
-      "git_url": ""
+      "live_url": "https://github.com/Quienten/tetris-group-project/releases",
+      "git_url": "https://github.com/Quienten/tetris-group-project"
     },
     {
       "name": "Portfolio Website",
       "description": "The site you're currently on",
-      "image_path": "",
       "chips": ["React", "TailwindCSS", "Vite"],
       "live_url": "https://quienten.dev",
-      "git_url": "https://github.com/Quienten/recipe-ready"
+      "git_url": "https://github.com/Quienten/portfolio"
     },
     {
       "name": "Covid Dashboard",
       "description": "Dashboard that acts as a central hub to those looking for a broad global understanding and a specific local understanding of the coronavirus. Uses a choropleth world map for the user to peruse stats relating to geographical location such as: cases, recoveries, and deaths.",
       "image_path": "covid-dashboard",
       "chips": ["JavaScript", "Python", "Django", "Plotly"],
-      "live_url": "",
+      "live_url": "https://github.com/Quienten/covid-dashboard",
       "git_url": "https://github.com/Quienten/covid-dashboard"
     }
   ]
