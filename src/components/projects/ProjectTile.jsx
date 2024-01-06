@@ -1,7 +1,7 @@
 import {useState} from "react";
-import Chip from "./Chip.jsx";
-import HyperLinkIcon from "./HyperLinkIcon.jsx";
-import GitHubIcon from "../assets/github.svg";
+import Chip from "../Chip.jsx";
+import HyperLinkIcon from "../HyperLinkIcon.jsx";
+import GitHubIcon from "../../assets/github.svg";
 import ProjectImage from "./ProjectImage.jsx";
 import SelfReferenceGag from "./SelfReferenceGag.jsx";
 

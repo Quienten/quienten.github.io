@@ -1,5 +1,5 @@
 import {useEffect, useRef, useState} from "react";
-import CursorIcon from "../assets/cursor.svg"
+import CursorIcon from "../../assets/cursor.svg"
 
 function SelfReferenceGag() {
 

@@ -2,11 +2,11 @@ import './App.css'
 import { projects } from './data/projects.json'
 import { experience } from "./data/experience.json"
 import { socials } from "./data/socials.json"
-import ProjectTile from "./components/ProjectTile.jsx";
+import ProjectTile from "./components/projects/ProjectTile.jsx";
 import ExperienceTile from "./components/ExperienceTile.jsx";
 import SocialButton from "./components/SocialButton.jsx"
 import SideNav from "./components/SideNav.jsx";
-import SelfReferenceGag from "./components/SelfReferenceGag.jsx"
+import SelfReferenceGag from "./components/projects/SelfReferenceGag.jsx"
 
 function App() {
 
@@ -59,9 +59,9 @@ function App() {
                       </ol>
                   </section>
 
-                  <section id="contact">
+                  {/*<section id="contact">*/}
 
-                  </section>
+                  {/*</section>*/}
               </main>
           </div>
 

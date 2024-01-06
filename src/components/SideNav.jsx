@@ -13,10 +13,10 @@ function SideNav() {
             name: "Experience",
             href: "#experience"
         },
-        {
-            name: "Contact",
-            href: ""
-        }
+        // {
+        //     name: "Contact",
+        //     href: ""
+        // }
     ]
 
     return (
