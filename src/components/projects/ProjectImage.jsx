@@ -8,7 +8,7 @@ function ProjectImage({ image_path }) {
     useEffect(() => {
         const fetchImage = async () => {
             try {
-                const response = await import(`../assets/${image_path}.png`)
+                const response = await import(`~/assets/${image_path}.png`)
                 setImage(response.default)
             } catch (err) {
                 //setError(err)
