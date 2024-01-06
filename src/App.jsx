@@ -6,7 +6,8 @@ import ProjectTile from "./components/projects/ProjectTile.jsx";
 import ExperienceTile from "./components/ExperienceTile.jsx";
 import SocialButton from "./components/SocialButton.jsx"
 import SideNav from "./components/SideNav.jsx";
-import SelfReferenceGag from "./components/projects/SelfReferenceGag.jsx"
+import HyperLinkIcon from "./components/HyperLinkIcon.jsx";
+import Resume from "./resume.pdf"
 
 function App() {
 
@@ -43,12 +44,23 @@ function App() {
                       <p></p>
                   </section>
 
-                  <section id="projects">
-                    <ol>
-                        {projects.map((project, i) => {
-                            return <ProjectTile key={i} project={project}/>
-                        })}
-                    </ol>
+                  <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
+                      <ol>
+                          {projects.map((project, i) => {
+                              return <ProjectTile key={i} project={project}/>
+                          })}
+
+                          <div className="mt-12">
+                              <a
+                                  className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
+                                  href="https://github.com/Quienten" target="_blank" rel="noreferrer noopener"
+                                  aria-label="View Projects on GitHub (opens in a new tab)">
+                                  <span>
+                                      View Projects on GitHub <HyperLinkIcon/>
+                                  </span>
+                              </a>
+                          </div>
+                      </ol>
                   </section>
 
                   <section id="experience">
@@ -56,7 +68,20 @@ function App() {
                           {experience.map((experience, i) => {
                               return <ExperienceTile key={i} experience={experience}/>
                           })}
+
+                          <div className="mt-12">
+                              <a
+                                  className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base"
+                                  href={Resume} target="_blank" rel="noreferrer noopener"
+                                  aria-label="View Full Resume (opens in a new tab)">
+                                  <span>
+                                      View Full Resume <HyperLinkIcon/>
+                                  </span>
+                              </a>
+                          </div>
                       </ol>
+
+
                   </section>
 
                   {/*<section id="contact">*/}
