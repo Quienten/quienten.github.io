@@ -1,6 +1,33 @@
 {
   "projects": [
     {
+      "name": "Soy Much Sushi!",
+      "tagline": "Run your own sushi restruant and make tons of money!",
+      "description": "Result of a 10 week game development group project course at UW",
+      "image_path": "soy-much-sushi",
+      "chips": ["JavaScript", "Game"],
+      "live_url": "https://mellancholy.github.io/TCSS-491-Game/",
+      "git_url": "https://github.com/Mellancholy/TCSS-491-Game"
+    },
+    {
+      "name": "2048",
+      "tagline": "A weekend recreation of the classic web game",
+      "description": "",
+      "image_path": "2048",
+      "chips": ["JavaScript", "Game"],
+      "live_url": "https://quienten.dev/2048",
+      "git_url": "https://github.com/Quienten/2048"
+    },
+    {
+      "name": "Workshop Shuffler",
+      "tagline": "Streamline group shuffling the classroom",
+      "description": "",
+      "image_path": "workshop-shuffler",
+      "chips": ["TypeScript", "React", "React Router", "TailwindCSS"],
+      "live_url": "https://www.quienten.dev/shuffle-workshop/",
+      "git_url": "https://github.com/Quienten/shuffle-workshop"
+    },
+    {
       "name": "Recipe Ready",
       "tagline": "Generate recipes from the ingredients in your fridge.",
       "description": "AI-powered recipe generation web-application that dynamically creates personalized recipes while providing an intuitive user interface for seamless navigation. This project showcases the fusion of diverse technologies to deliver an interactive culinary experience, combining frontend expertise with backend functionality.",

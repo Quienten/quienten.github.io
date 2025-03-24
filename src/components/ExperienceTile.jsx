@@ -7,6 +7,8 @@ function ProjectTile({ experience }) {
     const separationDot = " · "
     const separationDash = " — "
 
+    const formattedDescription = typeof description === "string" ? [description] : description
+
     return (
         <li className="mb-12">
             <div
@@ -37,7 +39,9 @@ function ProjectTile({ experience }) {
                         </div>
                     </h3>
                     <p className="mt-2 text-sm leading-normal">
-                        {description}
+                        {formattedDescription.map((description, index) => (
+                            <span key={index} className="block mt-2 text-slate-300">{description}</span>
+                        ))}
                     </p>
                 </div>
             </div>
