@@ -38,7 +38,7 @@ function App() {
                 <main className="pt-24 lg:w-7/12 lg:py-24">
                     <section id="about" className="mb-16 lg:mb-24">
                         <p>{"My name is Quienten, and I'm an aspiring Software Engineer studying at the University of Washington Tacoma. " +
-                        "With internship experience in full-stack development, I'm passionate about building scalable, efficient software and continuously expanding my technical expertise."}
+                        "With internship experience in full-stack development, I'm passionate about building software and continuously learning."}
                         </p>
                     </section>
 
